@@ -1,0 +1,119 @@
+.general {
+  padding: 4rem 10rem 6rem 10rem;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5rem;
+
+  .firstSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    position: relative;
+
+    .arrow {
+      position: absolute;
+      right: 9.2rem;
+      top: 2.5rem;
+      width: 20.88963rem;
+      height: 15.83275rem;
+      color: #004eeb;
+    }
+
+    h4 {
+      color: #175cd3;
+      font-family: Inter;
+      font-size: 1.125rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 1.75rem;
+    }
+
+    .title {
+      color: #1d2939;
+      font-family: Inter;
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 3.75rem;
+      letter-spacing: -0.06rem;
+    }
+
+    .paragraph {
+      color: #667085;
+      font-family: Inter;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 2rem;
+      width: 70%;
+    }
+  }
+
+  .secondSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .leftText {
+      display: flex;
+      width: 58%;
+      align-items: flex-start;
+      justify-content: start;
+      gap: 3.75rem 2.5rem;
+      flex-shrink: 0;
+      flex-wrap: wrap;
+
+      .singleText {
+        display: flex;
+        flex-direction: column;
+        width: 47%;
+        justify-content: space-between;
+        gap: 1.25rem;
+
+        .icon {
+          display: flex;
+          padding: 1rem;
+          justify-content: center;
+          align-items: center;
+          // gap: 0.625rem;
+          width: 18%;
+          border-radius: 50%;
+          border: 1px solid #eaecf0;
+          background: #f9fafb;
+
+          img {
+            width: 1.5rem;
+            height: 1.5rem;
+          }
+        }
+
+        .sub {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+          .subHeadingCard {
+            color: #101828;
+            font-family: Inter;
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 2rem;
+          }
+
+          color: #475467;
+          font-family: Inter;
+          font-size: 1.125rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 1.75rem;
+        }
+      }
+    }
+
+    .rightImage {
+      width: 40%;
+    }
+  }
+}

@@ -1,0 +1,209 @@
+.main {
+  background-image: url(/assets/Background-pattern.png);
+  background-size: 88%;
+  // height: 40.25rem;
+  flex-shrink: 0;
+  display: flex;
+  padding: 2.5rem 6rem 6rem 6rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 10rem;
+
+  .miniMain {
+    display: flex;
+    width: 93%;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    margin: auto;
+  }
+
+  .leftText {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5rem;
+    flex-basis: 60%;
+
+    h1 {
+      color: #1d2939;
+      font-size: 4rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 4.5rem;
+      letter-spacing: -0.08rem;
+    }
+
+    p {
+      font-size: 1.4rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 2rem;
+      color: #667085;
+      width: 90%;
+
+      span {
+        font-size: 2rem;
+      }
+    }
+
+    .trial {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+
+      .btn {
+        padding: 1rem 1.75rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.25rem;
+        font-size: 1.125rem;
+        font-style: normal;
+        border-radius: 6.25rem;
+        border: none;
+        background: #175cd3;
+        color: #ffffff;
+      }
+
+      .robot {
+        width: 1.25rem;
+        height: 1.25rem;
+      }
+
+      .ai {
+        font-family: Inter;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.75rem;
+        color: #175cd3;
+      }
+    }
+
+    .reviews {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      justify-content: space-between;
+
+      .roundImages {
+        display: flex;
+        align-items: center;
+
+        .image {
+          position: relative;
+          margin-right: -16px;
+        }
+      }
+
+      .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0.25rem;
+
+        .star-container {
+          display: flex;
+          gap: 0.5rem;
+
+          .colored-stars {
+            display: flex;
+            font-weight: 600;
+            gap: 0.5rem;
+          }
+        }
+
+        .review {
+          color: var(--Gray-600, #475467);
+          font-family: Inter;
+          font-size: 1rem;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 1.5rem;
+        }
+      }
+    }
+  }
+
+  .imagesContainer {
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    flex-basis: 47%;
+    border-radius: 1rem;
+    border: 1px solid #b2ddff;
+    background: #eff8ff;
+    box-shadow: 0px 32px 64px -12px rgba(16, 24, 40, 0.14);
+
+    .images {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      height: 70%;
+      width: 100%;
+
+      .singleImage {
+        display: flex;
+        justify-content: center;
+        width: 31%;
+        border-radius: 1.2rem;
+        height: 10rem;
+
+        img {
+          height: 100%;
+          border-radius: 1.2rem;
+        }
+      }
+      .orange-dark {
+        background-color: #ff9c66;
+
+        img {
+          position: relative;
+        }
+      }
+
+      .primary {
+        background-color: #d6bbfb;
+      }
+
+      .moss {
+        background-color: #acdc79;
+      }
+
+      .gray-blue {
+        background-color: #b3b8db;
+      }
+
+      .warning {
+        background-color: #fec84b;
+      }
+
+      .rose {
+        background-color: #fea3b4;
+      }
+    }
+
+    .icons {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+
+      .icon {
+        display: flex;
+        padding: 0.75rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        border: 1px solid #B2DDFF;
+        border-radius: 50%;
+        background-color: #ffffff;
+      }
+    }
+  }
+}
