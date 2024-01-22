@@ -1,29 +1,27 @@
 .navButtons {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 
-        button{
-            display: flex;
-            padding: 0.875rem 1.5rem;
-            justify-content: center;
-            align-items: center;
-            gap: 0.25rem;
-            font-size: 1rem;
-            font-style: normal;
-            font-weight: 600;
-            border-radius: 6.25rem;
-        }
-        .talkButton {
-            border: 1px solid var(--Gray-400, #98A2B3);
-            background: #FFF;
-
-
-        }
-        .signUpButton {
-            padding: 1rem 1.5rem;
-            border: none;
-            background: #175CD3;
-            color: #ffffff;
-        }
-    }
+  button {
+    display: flex;
+    padding: 0.875rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    border-radius: 6.25rem;
+  }
+  .talkButton {
+    border: 1px solid var(--Gray-400, #98a2b3);
+    background: #fff;
+  }
+  .signUpButton {
+    padding: 1rem 1.5rem;
+    border: none;
+    background: #175cd3;
+    color: #ffffff;
+  }
+}

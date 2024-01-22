@@ -97,23 +97,21 @@
       .secondSectionQuestions {
         display: flex;
 
-flex-direction: column;
-align-items: flex-start;
+        flex-direction: column;
+        align-items: flex-start;
 
-.faqQuestions {
-    display: flex;
-    padding: 2rem;
-align-items: flex-start;
-justify-content: space-between;
-gap: 1.5rem;
-// border-radius: 1rem;
+        .faqQuestions {
+          display: flex;
+          padding: 2rem;
+          align-items: flex-start;
+          justify-content: space-between;
+          gap: 1.5rem;
+          align-self: stretch;
+        }
 
-align-self: stretch;
-}
-
-.border-line {
-    border-bottom: 2px solid #EAECF0;
-}
+        .border-line {
+          border-bottom: 2px solid #eaecf0;
+        }
       }
     }
   }

@@ -4,7 +4,6 @@
   justify-content: space-between;
   align-items: center;
 
-
   .leftPlan {
     width: 50%;
     display: flex;
@@ -71,20 +70,17 @@
     z-index: 1000;
 
     .callImage {
-        width: 100%;
-        position: relative;
-        
+      width: 100%;
+      position: relative;
 
-        .sideCallImage {
-            position: absolute;
-            top: -15rem;
-            border: 6px solid black;
+      .sideCallImage {
+        position: absolute;
+        top: -15rem;
+        border: 6px solid black;
         border-bottom: none;
         border-right: none;
         border-top-left-radius: 1.2rem;
-        }
+      }
     }
   }
-
-
 }
