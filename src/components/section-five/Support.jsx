@@ -9,8 +9,7 @@ const Support = () => {
           <div className="faq">FAQs</div>
           <p>
             Everything you need to know about the product and billing. Can’t
-            find the answer you’re looking for? Please
-            <span className="underline"> chat to our friendly team.</span>
+            find the answer you’re looking for? Please <span className="underline">chat to our friendly team.</span>
           </p>
         </div>
 
