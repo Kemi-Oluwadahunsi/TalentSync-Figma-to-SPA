@@ -1,0 +1,120 @@
+.outerSection {
+  display: flex;
+  padding: 6rem 8rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6rem;
+
+  .innerSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    .sectionLeft {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1.25rem;
+      flex-shrink: 0;
+
+      .support {
+        color: #175cd3;
+        font-family: Inter;
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.75rem;
+      }
+
+      .faq {
+        color: #1d2939;
+        font-family: Inter;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 3.75rem;
+        letter-spacing: -0.06rem;
+      }
+
+      p {
+        color: #667085;
+        font-family: Inter;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 2rem;
+
+        .underline {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .sectionRight {
+      display: flex;
+      flex-direction: column;
+      width: 55%;
+
+      .firstSectionHead {
+        display: flex;
+        align-items: flex-start;
+        gap: 1.5rem;
+        padding: 2rem;
+        align-items: flex-start;
+        border-radius: 1rem;
+        border: 1px solid #eaecf0;
+        background: #f9fafb;
+
+        .questions {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+
+          gap: 0.5rem;
+          flex: 1 0 0;
+          width: 80%;
+
+          .h3 {
+            color: #101828;
+            font-family: Inter;
+            font-size: 1.25rem;
+            font-style: normal;
+            font-weight: 600;
+          }
+
+          .faqParagraph {
+            color: #475467;
+            font-family: Inter;
+            font-size: 1.125rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.75rem;
+          }
+        }
+      }
+
+      .secondSectionQuestions {
+        display: flex;
+
+flex-direction: column;
+align-items: flex-start;
+
+.faqQuestions {
+    display: flex;
+    padding: 2rem;
+align-items: flex-start;
+justify-content: space-between;
+gap: 1.5rem;
+// border-radius: 1rem;
+
+align-self: stretch;
+}
+
+.border-line {
+    border-bottom: 2px solid #EAECF0;
+}
+      }
+    }
+  }
+}

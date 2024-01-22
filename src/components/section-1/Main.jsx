@@ -9,13 +9,16 @@ const Main = () => {
 
       <div className="miniMain">
         <div className="leftText">
-          <h1>
-            Uniting the world, <br /> one video call at a time
-          </h1>
-          <p>
-            Experience the future of communication with ClearLink <span>-</span>{" "}
-            where crystal-clear video conferencing meet unparalleled simplicity.
-          </p>
+          <div className="uniqueText">
+            <h1>
+              Uniting the world, <br /> one video call at a time
+            </h1>
+            <p>
+              Experience the future of communication with ClearLink{" "}
+              <span>-</span> where crystal-clear video conferencing meet
+              unparalleled simplicity.
+            </p>
+          </div>
           <div className="trial">
             <button className="btn">Start your free trial</button>
             <img className="robot" src="/assets/Frame-10.svg" alt="robot" />
@@ -88,7 +91,6 @@ const Main = () => {
 
         <div className="imagesContainer">
           <div className="images">
-
             <div className="singleImage orange-dark">
               <img src="/assets/image21.png" alt="" />
             </div>
@@ -116,7 +118,7 @@ const Main = () => {
 
           <div className="icons">
             <div className="icon">
-              <img src="/assets/microphone-01.svg" alt="microphone"/>
+              <img src="/assets/microphone-01.svg" alt="microphone" />
             </div>
             <div className="icon">
               <img src="/assets/video-recorder.svg" alt="recorder" />

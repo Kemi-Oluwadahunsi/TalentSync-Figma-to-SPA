@@ -1,0 +1,60 @@
+<svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Google Play logo" filter="url(#filter0_ii_3722_377)">
+<path id="Vector" d="M0.936023 0.538332C0.645023 0.846332 0.473022 1.32433 0.473022 1.94333V24.0593C0.473022 24.6793 0.645023 25.1563 0.936023 25.4643L1.01002 25.5363L13.399 13.1473V13.0013V12.8553L1.01002 0.465332L0.936023 0.538332Z" fill="url(#paint0_linear_3722_377)"/>
+<path id="Vector_2" d="M17.528 17.2781L13.399 13.1471V13.0011V12.8551L17.529 8.7251L17.622 8.7781L22.515 11.5581C23.912 12.3521 23.912 13.6511 22.515 14.4461L17.622 17.2261L17.528 17.2781Z" fill="url(#paint1_linear_3722_377)"/>
+<g id="Vector_3" filter="url(#filter1_i_3722_377)">
+<path d="M17.622 17.225L13.398 13.001L0.936036 25.464C1.39604 25.952 2.15703 26.012 3.01403 25.526L17.622 17.225Z" fill="url(#paint2_linear_3722_377)"/>
+</g>
+<path id="Vector_4" d="M17.622 8.77719L3.01403 0.477188C2.15703 -0.00981149 1.39604 0.0511888 0.936036 0.539189L13.399 13.0022L17.622 8.77719Z" fill="url(#paint3_linear_3722_377)"/>
+</g>
+<defs>
+<filter id="filter0_ii_3722_377" x="0.473022" y="0.141113" width="23.0897" height="25.7207" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-0.15"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_3722_377"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="0.15"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="effect1_innerShadow_3722_377" result="effect2_innerShadow_3722_377"/>
+</filter>
+<filter id="filter1_i_3722_377" x="0.936035" y="13.001" width="16.686" height="12.8608" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="-0.15"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_3722_377"/>
+</filter>
+<linearGradient id="paint0_linear_3722_377" x1="12.3008" y1="1.70933" x2="-4.48118" y2="18.4913" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00A0FF"/>
+<stop offset="0.0066" stop-color="#00A1FF"/>
+<stop offset="0.2601" stop-color="#00BEFF"/>
+<stop offset="0.5122" stop-color="#00D2FF"/>
+<stop offset="0.7604" stop-color="#00DFFF"/>
+<stop offset="1" stop-color="#00E3FF"/>
+</linearGradient>
+<linearGradient id="paint1_linear_3722_377" x1="24.3335" y1="13.0011" x2="0.137649" y2="13.0011" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFE000"/>
+<stop offset="0.4087" stop-color="#FFBD00"/>
+<stop offset="0.7754" stop-color="#FFA500"/>
+<stop offset="1" stop-color="#FF9C00"/>
+</linearGradient>
+<linearGradient id="paint2_linear_3722_377" x1="15.3281" y1="15.2949" x2="-7.43036" y2="38.0534" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF3A44"/>
+<stop offset="1" stop-color="#C31162"/>
+</linearGradient>
+<linearGradient id="paint3_linear_3722_377" x1="-2.20257" y1="-6.82301" x2="7.95974" y2="3.33929" gradientUnits="userSpaceOnUse">
+<stop stop-color="#32A071"/>
+<stop offset="0.0685" stop-color="#2DA771"/>
+<stop offset="0.4762" stop-color="#15CF74"/>
+<stop offset="0.8009" stop-color="#06E775"/>
+<stop offset="1" stop-color="#00F076"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,156 @@
+.generalFooter {
+  .footer1 {
+    display: flex;
+    padding: 6rem 0rem 3rem 0rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+
+    .innerFooter {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 6.25rem;
+      padding: 0 8rem;
+
+      .logoParagraph {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 2rem;
+
+        .logo {
+          display: flex;
+          align-items: center;
+          gap: 0.625rem;
+
+          img {
+            width: 1.5865rem;
+            height: 1.75rem;
+          }
+
+          .text {
+            display: inline-block;
+            gap: 0;
+            color: #101828;
+            font-family: Inter;
+            font-size: 1.5rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+
+            span {
+              color: #528bff;
+            }
+          }
+        }
+
+        .footerText {
+          color: #475467;
+          font-family: Inter;
+          font-size: 1.125rem;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 1.75rem;
+        }
+      }
+
+      .clickableLinks {
+        display: flex;
+        align-items: flex-start;
+        gap: 2rem;
+
+        .linksLine {
+          display: flex;
+          width: 10rem;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 1rem;
+
+          .footerHeader {
+            color: #667085;
+            font-family: Inter;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 1.5rem;
+          }
+
+          .footerHeaderLast {
+            color: #004eeb;
+            font-family: Inter;
+            font-size: 1rem;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 1.5rem;
+          }
+
+          .linkSingle {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 1rem;
+
+            a {
+              display: flex;
+              align-items: center;
+              gap: 0.5rem;
+              text-decoration: none;
+
+              li {
+                list-style: none;
+                font-size: 1.2rem;
+                color: #475467;
+                font-weight: 600;
+              }
+            }
+          }
+
+          .google {
+            width: 8.4375rem;
+            height: 2.7rem;
+            border-radius: 0.3125rem;
+            border: 1px solid #a6a6a6;
+
+            background: var(--Base-Black, #000);
+            display: flex;
+            gap: 0.45rem;
+            padding: 0.2rem 0.62rem;
+          }
+        }
+      }
+    }
+  }
+
+  .footer2 {
+    display: flex;
+    padding: 3rem 0rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+
+    .copyright {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 2rem;
+      width: 100%;
+      padding: 0 8rem;
+
+      .year {
+        color: #667085;
+        font-family: Inter;
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5rem;
+      }
+
+      .socialPlatforms {
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+      }
+    }
+  }
+}
