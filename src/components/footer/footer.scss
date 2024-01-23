@@ -107,16 +107,21 @@
             }
           }
 
-          .google {
+            .appstore {
+              cursor: pointer;
+            }
+
+            .google {
             width: 8.4375rem;
             height: 2.7rem;
             border-radius: 0.3125rem;
             border: 1px solid #a6a6a6;
 
-            background: var(--Base-Black, #000);
+            background:  #000;
             display: flex;
             gap: 0.45rem;
             padding: 0.2rem 0.62rem;
+            cursor: pointer;
           }
         }
       }
@@ -152,6 +157,10 @@
         display: flex;
         align-items: center;
         gap: 1.5rem;
+
+        .socialIcons {
+          cursor: pointer;
+        }
       }
     }
   }

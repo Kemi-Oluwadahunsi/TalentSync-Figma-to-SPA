@@ -122,7 +122,11 @@ const Footer = () => {
 
             <div className="linksLine">
               <h5 className="footerHeaderLast">Get the app</h5>
-              <img src="/assets/Mobile-app-store-badge-1.svg" alt="App store" />
+              <img
+                src="/assets/Mobile-app-store-badge-1.svg"
+                alt="App store"
+                className="appstore"
+              />
 
               <div className="google">
                 <img
@@ -145,12 +149,12 @@ const Footer = () => {
         <div className="copyright">
           <div className="year">© 2023 ClearLink. All rights reserved.</div>
           <div className="socialPlatforms">
-            <img src="/assets/LinkedIn.svg" alt="linkedin" />
-            <img src="/assets/X.svg" alt="twitter" />
-            <img src="/assets/Facebook.svg" alt="facebook" />
-            <img src="/assets/Instagram.svg" alt="instagram" />
-            <img src="/assets/GitHub.svg" alt="github" />
-            <img src="/assets/Lozenge.svg" alt="youtube" />
+            <img src="/assets/LinkedIn.svg" alt="linkedin" className="socialIcons"/>
+            <img src="/assets/X.svg" alt="twitter" className="socialIcons"/>
+            <img src="/assets/Facebook.svg" alt="facebook" className="socialIcons"/>
+            <img src="/assets/Instagram.svg" alt="instagram" className="socialIcons"/>
+            <img src="/assets/GitHub.svg" alt="github" className="socialIcons"/>
+            <img src="/assets/Lozenge.svg" alt="youtube" className="socialIcons"/>
           </div>
         </div>
       </div>
