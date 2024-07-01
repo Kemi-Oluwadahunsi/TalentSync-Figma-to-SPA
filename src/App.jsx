@@ -10,7 +10,7 @@ import Footer from './components/footer/Footer'
 function App() {
 
   return (
-    <div className='max-w-[1600px] mx-auto'>
+    <div className=''>
       <Main />
       <Social />
       <Advantage />
